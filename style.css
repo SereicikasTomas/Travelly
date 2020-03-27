@@ -105,7 +105,7 @@ nav ul {
   padding: 5rem;
 }
 
-/* BENEFITS SECTION */
+/* LOCATIONS SECTION */
 #locations {
   min-height: 100vh;
   background: linear-gradient(rgba(19, 28, 39, 0.6), transparent),
@@ -137,7 +137,7 @@ nav ul {
 .cloud {
   position: absolute;
   top: -10vh;
-  right: -20vw;
+  right: -30vw;
   pointer-events: none;
   height: 55rem;
 }
@@ -148,7 +148,7 @@ nav ul {
 }
 
 .moving-cloud-2 {
-  top: 15%;
+  top: -5vh;
   z-index: -1;
   opacity: 0.7;
   animation: cloudAnimation 4s infinite alternate ease-in-out;
@@ -161,6 +161,41 @@ nav ul {
   100% {
     transform: translate(0%, 0%);
   }
+}
+
+/* BENEFITS SECTION */
+.benefits-head {
+  background: #343c44;
+  padding: 5rem;
+  color: white;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.benefits-head h3 {
+  padding: 1rem;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+}
+
+.card {
+  flex: 1 1 25rem;
+  margin: 2rem 5rem;
+  background: red;
+  min-height: 20vh;
+}
+
+.cards img {
+  height: 100px;
 }
 
 /* MEDIA QUERIES */
