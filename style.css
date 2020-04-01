@@ -208,7 +208,50 @@ nav ul {
 }
 
 .card-icon {
-  background: #4c6e97;
+  background: #131c27;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(19, 28, 39, 0.6), transparent),
+    url("/img/contact-mountain.png") no-repeat center/cover;
+  display: flex;
+}
+
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.8);
+  margin: auto;
+  width: 60%;
+  color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.form-header {
+  text-align: center;
+  padding: 4rem;
+}
+
+.name-form,
+.email-form {
+  padding: 3rem;
+  text-align: center;
+}
+
+.form-wrapper label {
+  margin: 0rem 3rem;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 8rem;
+}
+
+.form-wrapper input {
+  padding: 1rem 2rem;
 }
 
 /* MEDIA QUERIES */
