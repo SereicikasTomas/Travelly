@@ -55,9 +55,12 @@ button {
   transition: background 0.3s ease;
 }
 
-button:hover,
-button:focus {
+button:hover {
   background: #1e2c3d;
+}
+button:focus {
+  outline: dotted;
+  outline-color: white;
 }
 
 /* NAVIGATION AND HERO STYLES */
